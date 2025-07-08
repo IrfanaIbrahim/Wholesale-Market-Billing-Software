@@ -1,0 +1,40 @@
+/* src/styles/welcome.css */
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #f2f2f2, #e0ffe0);
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.welcome-btn {
+  padding: 15px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: #27ae60;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.welcome-btn:hover {
+  background-color: #219150;
+}

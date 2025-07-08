@@ -1,0 +1,69 @@
+.view-veg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f6f8;
+  padding: 40px 20px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.nav-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #43a047;
+}
+
+.veg-list {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.veg-list h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.veg-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.veg-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  color: #444;
+}
+
+.veg-list li:last-child {
+  border-bottom: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}

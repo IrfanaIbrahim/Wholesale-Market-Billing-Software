@@ -1,0 +1,96 @@
+.add-veg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f6f8;
+  padding: 40px 20px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.nav-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #43a047;
+}
+
+.add-veg-form {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.add-veg-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+}
+
+.add-veg-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.add-veg-form input[type="text"],
+.add-veg-form select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border 0.3s;
+}
+
+.add-veg-form input:focus,
+.add-veg-form select:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.add-veg-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-veg-form button:hover {
+  background-color: #43a047;
+}
+
+.response-message {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
